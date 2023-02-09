@@ -15,9 +15,9 @@ module.exports = {
 
 
 
-      const client_id = process.env.client_id
-      const client_secret = process.env.client_secret
-      const redirect_uri = process.env.redirect_uri
+      const client_id =  //client_id
+      const client_secret = //client_secret
+      const redirect_uri = //redirect_uri
 
       const url = `https://accounts.zoho.in/oauth/v2/token?client_id=${client_id}&client_secret=${client_secret}&grant_type=authorization_code&redirect_uri=${redirect_uri}&code=${authCode}`
 
